@@ -99,3 +99,15 @@ Mollis arcu neque lectus enim torquent arcu fusce. Platea fermentum aenean gravi
 
 Efficitur nam ultrices risus felis fusce nulla egestas consequat est. Dis elit volutpat dis nulla tempor pulvinar. Suscipit erat montes nibh auctor eu habitant ipsum. Sapien venenatis elit pretium risus neque natoque. Non montes facilisis urna per integer enim mauris. Vivamus magna ultricies nam montes sagittis montes eu nulla. Cubilia dui duis libero cras vestibulum fringilla torquent platea himenaeos.
 </details>
+
+# PlantUML
+
+```plantuml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+```
